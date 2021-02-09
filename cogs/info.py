@@ -27,7 +27,7 @@ class Information(commands.Cog):
     async def source_github(self, ctx):
         """ Permet de voir le code source du bot """
         await ctx.send(
-            f"**{self.client.user.name}** voici mon source code\nhttps://github.com/AaronRobache/Euphoria"
+            f"**{self.client.user.name}** voici mon source code\nhttps://github.com/MahesvaraSama/Euphoria"
         )
 
     @commands.command(name="info", aliases=["stats"], bief="Permet d'avoir les infos du serveur")
